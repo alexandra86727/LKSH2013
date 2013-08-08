@@ -26,7 +26,7 @@ void dfs(int u) {
                 }
                 path[v][ ++path[v][0] ] = v;
                 d[v] = d[u] + 1;
-                dfs(v, );
+                dfs(v);
             }
 }
 
